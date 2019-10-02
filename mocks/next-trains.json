@@ -1,0 +1,70 @@
+{
+  "Trains": [
+    {
+      "Car": "8",
+      "Destination": "NewCrltn",
+      "DestinationCode": "D13",
+      "DestinationName": "New Carrollton",
+      "Group": "1",
+      "Line": "OR",
+      "LocationCode": "K05",
+      "LocationName": "East Falls Church",
+      "Min": "2"
+    },
+    {
+      "Car": "8",
+      "Destination": "Vienna",
+      "DestinationCode": "K08",
+      "DestinationName": "Vienna/Fairfax-GMU",
+      "Group": "2",
+      "Line": "OR",
+      "LocationCode": "K05",
+      "LocationName": "East Falls Church",
+      "Min": "2"
+    },
+    {
+      "Car": "8",
+      "Destination": "Wiehle",
+      "DestinationCode": "N06",
+      "DestinationName": "Wiehle-Reston East",
+      "Group": "2",
+      "Line": "SV",
+      "LocationCode": "K05",
+      "LocationName": "East Falls Church",
+      "Min": "5"
+    },
+    {
+      "Car": "6",
+      "Destination": "Largo",
+      "DestinationCode": "G05",
+      "DestinationName": "Largo Town Center",
+      "Group": "1",
+      "Line": "SV",
+      "LocationCode": "K05",
+      "LocationName": "East Falls Church",
+      "Min": "7"
+    },
+    {
+      "Car": "8",
+      "Destination": "Vienna",
+      "DestinationCode": "K08",
+      "DestinationName": "Vienna/Fairfax-GMU",
+      "Group": "2",
+      "Line": "OR",
+      "LocationCode": "K05",
+      "LocationName": "East Falls Church",
+      "Min": "10"
+    },
+    {
+      "Car": "8",
+      "Destination": "NewCrltn",
+      "DestinationCode": "D13",
+      "DestinationName": "New Carrollton",
+      "Group": "1",
+      "Line": "OR",
+      "LocationCode": "K05",
+      "LocationName": "East Falls Church",
+      "Min": "12"
+    }
+  ]
+}

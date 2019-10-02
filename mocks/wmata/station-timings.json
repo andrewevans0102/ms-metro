@@ -1,0 +1,281 @@
+{
+  "StationTimes": [
+    {
+      "Code": "K05",
+      "StationName": "East Falls Church",
+      "Monday": {
+        "OpeningTime": "05:01",
+        "FirstTrains": [
+          {
+            "Time": "05:11",
+            "DestinationStation": "D13"
+          },
+          {
+            "Time": "05:15",
+            "DestinationStation": "G05"
+          },
+          {
+            "Time": "05:50",
+            "DestinationStation": "K08"
+          },
+          {
+            "Time": "05:52",
+            "DestinationStation": "N06"
+          }
+        ],
+        "LastTrains": [
+          {
+            "Time": "22:59",
+            "DestinationStation": "D13"
+          },
+          {
+            "Time": "23:06",
+            "DestinationStation": "G05"
+          },
+          {
+            "Time": "23:57",
+            "DestinationStation": "K08"
+          },
+          {
+            "Time": "00:01",
+            "DestinationStation": "N06"
+          }
+        ]
+      },
+      "Tuesday": {
+        "OpeningTime": "05:01",
+        "FirstTrains": [
+          {
+            "Time": "05:11",
+            "DestinationStation": "D13"
+          },
+          {
+            "Time": "05:15",
+            "DestinationStation": "G05"
+          },
+          {
+            "Time": "05:50",
+            "DestinationStation": "K08"
+          },
+          {
+            "Time": "05:52",
+            "DestinationStation": "N06"
+          }
+        ],
+        "LastTrains": [
+          {
+            "Time": "22:59",
+            "DestinationStation": "D13"
+          },
+          {
+            "Time": "23:06",
+            "DestinationStation": "G05"
+          },
+          {
+            "Time": "23:57",
+            "DestinationStation": "K08"
+          },
+          {
+            "Time": "00:01",
+            "DestinationStation": "N06"
+          }
+        ]
+      },
+      "Wednesday": {
+        "OpeningTime": "05:01",
+        "FirstTrains": [
+          {
+            "Time": "05:11",
+            "DestinationStation": "D13"
+          },
+          {
+            "Time": "05:15",
+            "DestinationStation": "G05"
+          },
+          {
+            "Time": "05:50",
+            "DestinationStation": "K08"
+          },
+          {
+            "Time": "05:52",
+            "DestinationStation": "N06"
+          }
+        ],
+        "LastTrains": [
+          {
+            "Time": "22:59",
+            "DestinationStation": "D13"
+          },
+          {
+            "Time": "23:06",
+            "DestinationStation": "G05"
+          },
+          {
+            "Time": "23:57",
+            "DestinationStation": "K08"
+          },
+          {
+            "Time": "00:01",
+            "DestinationStation": "N06"
+          }
+        ]
+      },
+      "Thursday": {
+        "OpeningTime": "05:01",
+        "FirstTrains": [
+          {
+            "Time": "05:11",
+            "DestinationStation": "D13"
+          },
+          {
+            "Time": "05:15",
+            "DestinationStation": "G05"
+          },
+          {
+            "Time": "05:50",
+            "DestinationStation": "K08"
+          },
+          {
+            "Time": "05:52",
+            "DestinationStation": "N06"
+          }
+        ],
+        "LastTrains": [
+          {
+            "Time": "22:59",
+            "DestinationStation": "D13"
+          },
+          {
+            "Time": "23:06",
+            "DestinationStation": "G05"
+          },
+          {
+            "Time": "23:57",
+            "DestinationStation": "K08"
+          },
+          {
+            "Time": "00:01",
+            "DestinationStation": "N06"
+          }
+        ]
+      },
+      "Friday": {
+        "OpeningTime": "05:01",
+        "FirstTrains": [
+          {
+            "Time": "05:11",
+            "DestinationStation": "D13"
+          },
+          {
+            "Time": "05:15",
+            "DestinationStation": "G05"
+          },
+          {
+            "Time": "05:50",
+            "DestinationStation": "K08"
+          },
+          {
+            "Time": "05:52",
+            "DestinationStation": "N06"
+          }
+        ],
+        "LastTrains": [
+          {
+            "Time": "00:29",
+            "DestinationStation": "D13"
+          },
+          {
+            "Time": "00:36",
+            "DestinationStation": "G05"
+          },
+          {
+            "Time": "01:27",
+            "DestinationStation": "K08"
+          },
+          {
+            "Time": "01:31",
+            "DestinationStation": "N06"
+          }
+        ]
+      },
+      "Saturday": {
+        "OpeningTime": "07:01",
+        "FirstTrains": [
+          {
+            "Time": "07:11",
+            "DestinationStation": "D13"
+          },
+          {
+            "Time": "07:15",
+            "DestinationStation": "G05"
+          },
+          {
+            "Time": "07:50",
+            "DestinationStation": "K08"
+          },
+          {
+            "Time": "07:52",
+            "DestinationStation": "N06"
+          }
+        ],
+        "LastTrains": [
+          {
+            "Time": "00:29",
+            "DestinationStation": "D13"
+          },
+          {
+            "Time": "00:36",
+            "DestinationStation": "G05"
+          },
+          {
+            "Time": "01:27",
+            "DestinationStation": "K08"
+          },
+          {
+            "Time": "01:31",
+            "DestinationStation": "N06"
+          }
+        ]
+      },
+      "Sunday": {
+        "OpeningTime": "08:01",
+        "FirstTrains": [
+          {
+            "Time": "08:11",
+            "DestinationStation": "D13"
+          },
+          {
+            "Time": "08:15",
+            "DestinationStation": "G05"
+          },
+          {
+            "Time": "08:50",
+            "DestinationStation": "K08"
+          },
+          {
+            "Time": "08:52",
+            "DestinationStation": "N06"
+          }
+        ],
+        "LastTrains": [
+          {
+            "Time": "22:29",
+            "DestinationStation": "D13"
+          },
+          {
+            "Time": "22:36",
+            "DestinationStation": "G05"
+          },
+          {
+            "Time": "23:27",
+            "DestinationStation": "K08"
+          },
+          {
+            "Time": "23:31",
+            "DestinationStation": "N06"
+          }
+        ]
+      }
+    }
+  ]
+}

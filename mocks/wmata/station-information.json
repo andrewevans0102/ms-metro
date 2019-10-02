@@ -1,0 +1,18 @@
+{
+  "Code": "A15",
+  "Name": "Shady Grove",
+  "StationTogether1": "",
+  "StationTogether2": "",
+  "LineCode1": "RD",
+  "LineCode2": null,
+  "LineCode3": null,
+  "LineCode4": null,
+  "Lat": 39.119819,
+  "Lon": -77.164921,
+  "Address": {
+    "Street": "15903 Somerville Drive",
+    "City": "Rockville",
+    "State": "MD",
+    "Zip": "20855"
+  }
+}

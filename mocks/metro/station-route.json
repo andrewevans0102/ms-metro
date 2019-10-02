@@ -1,0 +1,114 @@
+[
+  {
+    "name": "Wiehle-Reston East",
+    "code": "N06"
+  },
+  {
+    "name": "Spring Hill",
+    "code": "N04"
+  },
+  {
+    "name": "Greensboro",
+    "code": "N03"
+  },
+  {
+    "name": "Tysons Corner",
+    "code": "N02"
+  },
+  {
+    "name": "McLean",
+    "code": "N01"
+  },
+  {
+    "name": "East Falls Church",
+    "code": "K05"
+  },
+  {
+    "name": "Ballston-MU",
+    "code": "K04"
+  },
+  {
+    "name": "Virginia Square-GMU",
+    "code": "K03"
+  },
+  {
+    "name": "Clarendon",
+    "code": "K02"
+  },
+  {
+    "name": "Court House",
+    "code": "K01"
+  },
+  {
+    "name": "Rosslyn",
+    "code": "C05"
+  },
+  {
+    "name": "Foggy Bottom-GWU",
+    "code": "C04"
+  },
+  {
+    "name": "Farragut West",
+    "code": "C03"
+  },
+  {
+    "name": "McPherson Square",
+    "code": "C02"
+  },
+  {
+    "name": "Metro Center",
+    "code": "C01"
+  },
+  {
+    "name": "Federal Triangle",
+    "code": "D01"
+  },
+  {
+    "name": "Smithsonian",
+    "code": "D02"
+  },
+  {
+    "name": "L'Enfant Plaza",
+    "code": "D03"
+  },
+  {
+    "name": "Federal Center SW",
+    "code": "D04"
+  },
+  {
+    "name": "Capitol South",
+    "code": "D05"
+  },
+  {
+    "name": "Eastern Market",
+    "code": "D06"
+  },
+  {
+    "name": "Potomac Ave",
+    "code": "D07"
+  },
+  {
+    "name": "Stadium-Armory",
+    "code": "D08"
+  },
+  {
+    "name": "Benning Road",
+    "code": "G01"
+  },
+  {
+    "name": "Capitol Heights",
+    "code": "G02"
+  },
+  {
+    "name": "Addison Road-Seat Pleasant",
+    "code": "G03"
+  },
+  {
+    "name": "Morgan Boulevard",
+    "code": "G04"
+  },
+  {
+    "name": "Largo Town Center",
+    "code": "G05"
+  }
+]

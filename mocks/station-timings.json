@@ -1,0 +1,113 @@
+{
+  "StationTimes": [
+    {
+      "Code": "A15",
+      "StationName": "Shady Grove",
+      "Monday": {
+        "OpeningTime": "04:50",
+        "FirstTrains": [
+          {
+            "Time": "05:00",
+            "DestinationStation": "B11"
+          }
+        ],
+        "LastTrains": [
+          {
+            "Time": "22:55",
+            "DestinationStation": "B11"
+          }
+        ]
+      },
+      "Tuesday": {
+        "OpeningTime": "04:50",
+        "FirstTrains": [
+          {
+            "Time": "05:00",
+            "DestinationStation": "B11"
+          }
+        ],
+        "LastTrains": [
+          {
+            "Time": "22:55",
+            "DestinationStation": "B11"
+          }
+        ]
+      },
+      "Wednesday": {
+        "OpeningTime": "04:50",
+        "FirstTrains": [
+          {
+            "Time": "05:00",
+            "DestinationStation": "B11"
+          }
+        ],
+        "LastTrains": [
+          {
+            "Time": "22:55",
+            "DestinationStation": "B11"
+          }
+        ]
+      },
+      "Thursday": {
+        "OpeningTime": "04:50",
+        "FirstTrains": [
+          {
+            "Time": "05:00",
+            "DestinationStation": "B11"
+          }
+        ],
+        "LastTrains": [
+          {
+            "Time": "22:55",
+            "DestinationStation": "B11"
+          }
+        ]
+      },
+      "Friday": {
+        "OpeningTime": "04:50",
+        "FirstTrains": [
+          {
+            "Time": "05:00",
+            "DestinationStation": "B11"
+          }
+        ],
+        "LastTrains": [
+          {
+            "Time": "00:25",
+            "DestinationStation": "B11"
+          }
+        ]
+      },
+      "Saturday": {
+        "OpeningTime": "06:50",
+        "FirstTrains": [
+          {
+            "Time": "07:00",
+            "DestinationStation": "B11"
+          }
+        ],
+        "LastTrains": [
+          {
+            "Time": "00:25",
+            "DestinationStation": "B11"
+          }
+        ]
+      },
+      "Sunday": {
+        "OpeningTime": "07:50",
+        "FirstTrains": [
+          {
+            "Time": "08:00",
+            "DestinationStation": "B11"
+          }
+        ],
+        "LastTrains": [
+          {
+            "Time": "22:25",
+            "DestinationStation": "B11"
+          }
+        ]
+      }
+    }
+  ]
+}
