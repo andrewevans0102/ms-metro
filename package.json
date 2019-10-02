@@ -23,6 +23,7 @@
     "json-server": "^0.15.1",
     "mocha": "^6.2.0",
     "nodemon": "^1.19.2",
+    "prettier": "^1.18.2",
     "request": "^2.88.0",
     "request-promise": "^4.2.4",
     "sinon": "^7.5.0",
