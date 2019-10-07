@@ -48,10 +48,7 @@ controllers.getStationHours = async StationCode => {
   const response = await wmata.stationTimings(StationCode);
   const { StationTimes: stationTimes } = response;
   const times = stationTimes[0];
-  console.log('hello');
-  console.log(JSON.stringify(response));
   // create an array of values formatted
-  // the times are military but could be converted to 12 hours
   const formattedTimes = [];
   const emptyHours = '00:00';
   if (times.Monday.OpeningTime !== emptyHours) {
