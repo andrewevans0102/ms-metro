@@ -17,6 +17,15 @@ controllers.getStationList = async LineCode => {
       name: station.Name
     });
   });
+  stationList.sort((a, b) => {
+    if (a.name < b.name) {
+      return -1;
+    }
+    if (a.name > b.name) {
+      return 1;
+    }
+    return 0;
+  });
   return stationList;
 };
 
@@ -40,52 +49,81 @@ controllers.getStationHours = async StationCode => {
   const { StationTimes: stationTimes } = response;
   const times = stationTimes[0];
   // create an array of values formatted
-  // the times are military but could be converted to 12 hours
   const formattedTimes = [];
-  formattedTimes.push({
-    day: 'Monday',
-    opening: times.Monday.OpeningTime,
-    firstTrain: times.Monday.FirstTrains[0].Time,
-    lastTrain: times.Monday.LastTrains[0].Time
-  });
-  formattedTimes.push({
-    day: 'Tuesday',
-    opening: times.Tuesday.OpeningTime,
-    firstTrain: times.Tuesday.FirstTrains[0].Time,
-    lastTrain: times.Tuesday.LastTrains[0].Time
-  });
-  formattedTimes.push({
-    day: 'Wednesday',
-    opening: times.Wednesday.OpeningTime,
-    firstTrain: times.Wednesday.FirstTrains[0].Time,
-    lastTrain: times.Wednesday.LastTrains[0].Time
-  });
-  formattedTimes.push({
-    day: 'Thursday',
-    opening: times.Thursday.OpeningTime,
-    firstTrain: times.Thursday.FirstTrains[0].Time,
-    lastTrain: times.Thursday.LastTrains[0].Time
-  });
-  formattedTimes.push({
-    day: 'Friday',
-    opening: times.Friday.OpeningTime,
-    firstTrain: times.Friday.FirstTrains[0].Time,
-    lastTrain: times.Friday.LastTrains[0].Time
-  });
-  formattedTimes.push({
-    day: 'Saturday',
-    opening: times.Saturday.OpeningTime,
-    firstTrain: times.Saturday.FirstTrains[0].Time,
-    lastTrain: times.Saturday.LastTrains[0].Time
-  });
-  formattedTimes.push({
-    day: 'Sunday',
-    opening: times.Sunday.OpeningTime,
-    firstTrain: times.Sunday.FirstTrains[0].Time,
-    lastTrain: times.Sunday.LastTrains[0].Time
-  });
+  const emptyHours = '00:00';
+  if (times.Monday.OpeningTime !== emptyHours) {
+    formattedTimes.push({
+      day: 'Monday',
+      opening: convert24To12Hour(times.Monday.OpeningTime),
+      firstTrain: convert24To12Hour(times.Monday.FirstTrains[0].Time),
+      lastTrain: convert24To12Hour(times.Monday.LastTrains[0].Time)
+    });
+  }
+  if (times.Tuesday.OpeningTime !== emptyHours) {
+    formattedTimes.push({
+      day: 'Tuesday',
+      opening: convert24To12Hour(times.Tuesday.OpeningTime),
+      firstTrain: convert24To12Hour(times.Tuesday.FirstTrains[0].Time),
+      lastTrain: convert24To12Hour(times.Tuesday.LastTrains[0].Time)
+    });
+  }
+  if (times.Wednesday.OpeningTime !== emptyHours) {
+    formattedTimes.push({
+      day: 'Wednesday',
+      opening: convert24To12Hour(times.Wednesday.OpeningTime),
+      firstTrain: convert24To12Hour(times.Wednesday.FirstTrains[0].Time),
+      lastTrain: convert24To12Hour(times.Wednesday.LastTrains[0].Time)
+    });
+  }
+  if (times.Thursday.OpeningTime !== emptyHours) {
+    formattedTimes.push({
+      day: 'Thursday',
+      opening: convert24To12Hour(times.Thursday.OpeningTime),
+      firstTrain: convert24To12Hour(times.Thursday.FirstTrains[0].Time),
+      lastTrain: convert24To12Hour(times.Thursday.LastTrains[0].Time)
+    });
+  }
+  if (times.Friday.OpeningTime !== emptyHours) {
+    formattedTimes.push({
+      day: 'Friday',
+      opening: convert24To12Hour(times.Friday.OpeningTime),
+      firstTrain: convert24To12Hour(times.Friday.FirstTrains[0].Time),
+      lastTrain: convert24To12Hour(times.Friday.LastTrains[0].Time)
+    });
+  }
+  if (times.Saturday.OpeningTime !== emptyHours) {
+    formattedTimes.push({
+      day: 'Saturday',
+      opening: convert24To12Hour(times.Saturday.OpeningTime),
+      firstTrain: convert24To12Hour(times.Saturday.FirstTrains[0].Time),
+      lastTrain: convert24To12Hour(times.Saturday.LastTrains[0].Time)
+    });
+  }
+  if (times.Sunday.OpeningTime !== emptyHours) {
+    formattedTimes.push({
+      day: 'Sunday',
+      opening: convert24To12Hour(times.Sunday.OpeningTime),
+      firstTrain: convert24To12Hour(times.Sunday.FirstTrains[0].Time),
+      lastTrain: convert24To12Hour(times.Sunday.LastTrains[0].Time)
+    });
+  }
   return formattedTimes;
 };
+
+function convert24To12Hour(timeInput) {
+  const hoursString = timeInput.substring(0, 2);
+  const minutesString = timeInput.substring(3, 5);
+  let hoursNumber = parseInt(hoursString, 10);
+  console.log(hoursNumber);
+  if (hoursNumber > 12) {
+    hoursNumber = hoursNumber - 12;
+    return hoursNumber.toString() + ':' + minutesString + ' pm';
+  } else if (hoursNumber === 12) {
+    return hoursNumber.toString() + ':' + minutesString + ' pm';
+  } else {
+    return timeInput + ' am';
+  }
+}
 
 controllers.getArrivalTimes = async stationCode => {
   const response = await wmata.nextTrains(stationCode);
@@ -98,7 +136,8 @@ controllers.getStationRoute = async LineCode => {
   const stations = await wmata.stationList(LineCode);
 
   const stationRoute = [];
-  let stationOrder = 0;
+  // start counting at 1 here since this will be displayed
+  let stationOrder = 1;
   route.forEach(routeStop => {
     if (routeStop.StationCode !== null) {
       const stationName = stations.find(station => {
@@ -107,7 +146,8 @@ controllers.getStationRoute = async LineCode => {
 
       const savedStation = {
         name: stationName.Name,
-        code: routeStop.StationCode
+        code: routeStop.StationCode,
+        order: stationOrder
       };
       stationOrder++;
       stationRoute.push(savedStation);
