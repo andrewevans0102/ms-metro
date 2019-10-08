@@ -22,12 +22,12 @@ jobs:
           key: v1-dependencies-{{ checksum "package.json" }}
           paths:
             - node_modules
-      # - run:
-      #     name: Unit tests
-      #     command: npm run unit-tests
-      # - run:
-      #     name: Integration tests
-      #     command: npm run integration-mock-run-ci
+      - run:
+          name: Unit tests
+          command: npm run unit-tests
+      - run:
+          name: Integration tests
+          command: npm run integration-mock-run-ci
 
 workflows:
   version: 2
