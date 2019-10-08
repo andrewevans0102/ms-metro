@@ -1,55 +1,11 @@
 [
   {
-    "code": "C01",
-    "name": "Metro Center"
+    "code": "G03",
+    "name": "Addison Road-Seat Pleasant"
   },
   {
-    "code": "C02",
-    "name": "McPherson Square"
-  },
-  {
-    "code": "C03",
-    "name": "Farragut West"
-  },
-  {
-    "code": "C04",
-    "name": "Foggy Bottom-GWU"
-  },
-  {
-    "code": "C05",
-    "name": "Rosslyn"
-  },
-  {
-    "code": "D01",
-    "name": "Federal Triangle"
-  },
-  {
-    "code": "D02",
-    "name": "Smithsonian"
-  },
-  {
-    "code": "D03",
-    "name": "L'Enfant Plaza"
-  },
-  {
-    "code": "D04",
-    "name": "Federal Center SW"
-  },
-  {
-    "code": "D05",
-    "name": "Capitol South"
-  },
-  {
-    "code": "D06",
-    "name": "Eastern Market"
-  },
-  {
-    "code": "D07",
-    "name": "Potomac Ave"
-  },
-  {
-    "code": "D08",
-    "name": "Stadium-Armory"
+    "code": "K04",
+    "name": "Ballston-MU"
   },
   {
     "code": "G01",
@@ -60,52 +16,96 @@
     "name": "Capitol Heights"
   },
   {
-    "code": "G03",
-    "name": "Addison Road-Seat Pleasant"
-  },
-  {
-    "code": "G04",
-    "name": "Morgan Boulevard"
-  },
-  {
-    "code": "G05",
-    "name": "Largo Town Center"
-  },
-  {
-    "code": "K01",
-    "name": "Court House"
+    "code": "D05",
+    "name": "Capitol South"
   },
   {
     "code": "K02",
     "name": "Clarendon"
   },
   {
-    "code": "K03",
-    "name": "Virginia Square-GMU"
-  },
-  {
-    "code": "K04",
-    "name": "Ballston-MU"
+    "code": "K01",
+    "name": "Court House"
   },
   {
     "code": "K05",
     "name": "East Falls Church"
   },
   {
-    "code": "N01",
-    "name": "McLean"
+    "code": "D06",
+    "name": "Eastern Market"
   },
   {
-    "code": "N02",
-    "name": "Tysons Corner"
+    "code": "C03",
+    "name": "Farragut West"
+  },
+  {
+    "code": "D04",
+    "name": "Federal Center SW"
+  },
+  {
+    "code": "D01",
+    "name": "Federal Triangle"
+  },
+  {
+    "code": "C04",
+    "name": "Foggy Bottom-GWU"
   },
   {
     "code": "N03",
     "name": "Greensboro"
   },
   {
+    "code": "D03",
+    "name": "L'Enfant Plaza"
+  },
+  {
+    "code": "G05",
+    "name": "Largo Town Center"
+  },
+  {
+    "code": "N01",
+    "name": "McLean"
+  },
+  {
+    "code": "C02",
+    "name": "McPherson Square"
+  },
+  {
+    "code": "C01",
+    "name": "Metro Center"
+  },
+  {
+    "code": "G04",
+    "name": "Morgan Boulevard"
+  },
+  {
+    "code": "D07",
+    "name": "Potomac Ave"
+  },
+  {
+    "code": "C05",
+    "name": "Rosslyn"
+  },
+  {
+    "code": "D02",
+    "name": "Smithsonian"
+  },
+  {
     "code": "N04",
     "name": "Spring Hill"
+  },
+  {
+    "code": "D08",
+    "name": "Stadium-Armory"
+  },
+  {
+    "code": "N02",
+    "name": "Tysons Corner"
+  },
+  {
+    "code": "K03",
+    "name": "Virginia Square-GMU"
   },
   {
     "code": "N06",

@@ -1,44 +1,44 @@
 [
   {
     "day": "Monday",
-    "opening": "05:01",
-    "firstTrain": "05:11",
-    "lastTrain": "22:59"
+    "opening": "05:01 am",
+    "firstTrain": "05:11 am",
+    "lastTrain": "10:59 pm"
   },
   {
     "day": "Tuesday",
-    "opening": "05:01",
-    "firstTrain": "05:11",
-    "lastTrain": "22:59"
+    "opening": "05:01 am",
+    "firstTrain": "05:11 am",
+    "lastTrain": "10:59 pm"
   },
   {
     "day": "Wednesday",
-    "opening": "05:01",
-    "firstTrain": "05:11",
-    "lastTrain": "22:59"
+    "opening": "05:01 am",
+    "firstTrain": "05:11 am",
+    "lastTrain": "10:59 pm"
   },
   {
     "day": "Thursday",
-    "opening": "05:01",
-    "firstTrain": "05:11",
-    "lastTrain": "22:59"
+    "opening": "05:01 am",
+    "firstTrain": "05:11 am",
+    "lastTrain": "10:59 pm"
   },
   {
     "day": "Friday",
-    "opening": "05:01",
-    "firstTrain": "05:11",
-    "lastTrain": "00:29"
+    "opening": "05:01 am",
+    "firstTrain": "05:11 am",
+    "lastTrain": "00:29 am"
   },
   {
     "day": "Saturday",
-    "opening": "07:01",
-    "firstTrain": "07:11",
-    "lastTrain": "00:29"
+    "opening": "07:01 am",
+    "firstTrain": "07:11 am",
+    "lastTrain": "00:29 am"
   },
   {
     "day": "Sunday",
-    "opening": "08:01",
-    "firstTrain": "08:11",
-    "lastTrain": "22:29"
+    "opening": "08:01 am",
+    "firstTrain": "08:11 am",
+    "lastTrain": "10:29 pm"
   }
 ]
