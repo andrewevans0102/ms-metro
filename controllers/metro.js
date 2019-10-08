@@ -114,7 +114,6 @@ function convert24To12Hour(timeInput) {
   const hoursString = timeInput.substring(0, 2);
   const minutesString = timeInput.substring(3, 5);
   let hoursNumber = parseInt(hoursString, 10);
-  console.log(hoursNumber);
   if (hoursNumber > 12) {
     hoursNumber = hoursNumber - 12;
     return hoursNumber.toString() + ':' + minutesString + ' pm';

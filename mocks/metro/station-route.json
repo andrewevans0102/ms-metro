@@ -1,114 +1,142 @@
 [
   {
     "name": "Wiehle-Reston East",
-    "code": "N06"
+    "code": "N06",
+    "order": 1
   },
   {
     "name": "Spring Hill",
-    "code": "N04"
+    "code": "N04",
+    "order": 2
   },
   {
     "name": "Greensboro",
-    "code": "N03"
+    "code": "N03",
+    "order": 3
   },
   {
     "name": "Tysons Corner",
-    "code": "N02"
+    "code": "N02",
+    "order": 4
   },
   {
     "name": "McLean",
-    "code": "N01"
+    "code": "N01",
+    "order": 5
   },
   {
     "name": "East Falls Church",
-    "code": "K05"
+    "code": "K05",
+    "order": 6
   },
   {
     "name": "Ballston-MU",
-    "code": "K04"
+    "code": "K04",
+    "order": 7
   },
   {
     "name": "Virginia Square-GMU",
-    "code": "K03"
+    "code": "K03",
+    "order": 8
   },
   {
     "name": "Clarendon",
-    "code": "K02"
+    "code": "K02",
+    "order": 9
   },
   {
     "name": "Court House",
-    "code": "K01"
+    "code": "K01",
+    "order": 10
   },
   {
     "name": "Rosslyn",
-    "code": "C05"
+    "code": "C05",
+    "order": 11
   },
   {
     "name": "Foggy Bottom-GWU",
-    "code": "C04"
+    "code": "C04",
+    "order": 12
   },
   {
     "name": "Farragut West",
-    "code": "C03"
+    "code": "C03",
+    "order": 13
   },
   {
     "name": "McPherson Square",
-    "code": "C02"
+    "code": "C02",
+    "order": 14
   },
   {
     "name": "Metro Center",
-    "code": "C01"
+    "code": "C01",
+    "order": 15
   },
   {
     "name": "Federal Triangle",
-    "code": "D01"
+    "code": "D01",
+    "order": 16
   },
   {
     "name": "Smithsonian",
-    "code": "D02"
+    "code": "D02",
+    "order": 17
   },
   {
     "name": "L'Enfant Plaza",
-    "code": "D03"
+    "code": "D03",
+    "order": 18
   },
   {
     "name": "Federal Center SW",
-    "code": "D04"
+    "code": "D04",
+    "order": 19
   },
   {
     "name": "Capitol South",
-    "code": "D05"
+    "code": "D05",
+    "order": 20
   },
   {
     "name": "Eastern Market",
-    "code": "D06"
+    "code": "D06",
+    "order": 21
   },
   {
     "name": "Potomac Ave",
-    "code": "D07"
+    "code": "D07",
+    "order": 22
   },
   {
     "name": "Stadium-Armory",
-    "code": "D08"
+    "code": "D08",
+    "order": 23
   },
   {
     "name": "Benning Road",
-    "code": "G01"
+    "code": "G01",
+    "order": 24
   },
   {
     "name": "Capitol Heights",
-    "code": "G02"
+    "code": "G02",
+    "order": 25
   },
   {
     "name": "Addison Road-Seat Pleasant",
-    "code": "G03"
+    "code": "G03",
+    "order": 26
   },
   {
     "name": "Morgan Boulevard",
-    "code": "G04"
+    "code": "G04",
+    "order": 27
   },
   {
     "name": "Largo Town Center",
-    "code": "G05"
+    "code": "G05",
+    "order": 28
   }
 ]

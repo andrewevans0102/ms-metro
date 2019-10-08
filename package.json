@@ -10,7 +10,10 @@
     "json-server": "./node_modules/.bin/json-server --watch ./mock-server/response.json",
     "integration-tests": "MOCK_SERVER=true mocha --exit test/integration.js",
     "integration-mock-run-local": "concurrently \"npm run json-server\" \"npm run integration-tests\"",
-    "integration-mock-run-ci": "start-server-and-test \"npm run json-server\" http://localhost:3000 \"npm run integration-tests\""
+    "integration-mock-run-ci": "start-server-and-test \"npm run json-server\" http://localhost:3000 \"npm run integration-tests\"",
+    "google-deploy": "gcloud app deploy",
+    "tail-logs": "gcloud app logs tail -s default",
+    "gcloud-browse": "gcloud app browse"
   },
   "author": "Andrew Evans",
   "license": "MIT",
