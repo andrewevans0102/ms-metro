@@ -28,9 +28,33 @@ jobs:
       - run:
           name: Integration tests
           command: npm run integration-mock-run-ci
+      - save_cache:
+          key: v1-dist-{{ .Environment.CIRCLE_BRANCH }}-{{ .Environment.CIRCLE_SHA1 }}
+          paths:
+            - /
+
+  deploy:
+    docker:
+      - image: circleci/node:10.9.0
+    working_directory: ~/project
+    steps:
+      - run:
+          name: Show current branch
+          command: echo ${CIRCLE_BRANCH}
+      - restore_cache:
+          key: v1-dist-{{ .Environment.CIRCLE_BRANCH }}-{{ .Environment.CIRCLE_SHA1 }}
+      - run:
+          name: Show current files
+          command: ls
 
 workflows:
   version: 2
   -deploy:
     jobs:
       - build
+      - deploy:
+          requires:
+            - build
+          filters:
+            branches:
+              only: master
