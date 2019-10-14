@@ -62,7 +62,3 @@ typings/
 
 # package lock json file
 package-lock.json
-
-service.json
-
-app.yaml
